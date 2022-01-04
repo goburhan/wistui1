@@ -210,6 +210,13 @@ var IconButton = styled(Button)(templateObject_1$3 || (templateObject_1$3 = __ma
 });
 var templateObject_1$3;
 
+var Icon$54 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 47 47" , width:'47' , height:'47' }, props),
+        React.createElement("path", { d: "M22.432,22.429c0,0.591,0.479,1.067,1.068,1.067s1.068-0.479,1.068-1.067c0.001-1.25,0.445-2.465,1.251-3.421 c1.793-2.126,3.137-4.431,3.988-6.851c0.115-0.327,0.065-0.689-0.135-0.972c-0.201-0.283-0.525-0.451-0.872-0.451H18.199 c-0.347,0-0.672,0.168-0.873,0.451c-0.2,0.283-0.25,0.645-0.135,0.972c0.853,2.42,2.195,4.725,3.988,6.851 C21.986,19.964,22.431,21.18,22.432,22.429z" }),
+        React.createElement("path", { d: "M24.568,26.71c0-0.59-0.479-1.067-1.068-1.067s-1.068,0.479-1.068,1.067c-0.001,1.542-0.922,3.067-2.593,4.304	c-3.574,2.639-6.249,5.506-7.951,8.52c-0.187,0.332-0.184,0.736,0.009,1.062c0.19,0.329,0.542,0.53,0.922,0.53h21.364 c0.379,0,0.73-0.201,0.922-0.53c0.191-0.326,0.194-0.73,0.008-1.062c-1.701-3.014-4.377-5.881-7.95-8.52 C25.49,29.777,24.569,28.252,24.568,26.71z" }),
+        React.createElement("path", { d: "M42.192,42.729h-0.639c-0.734-8.313-5.602-14.695-9.386-19.228c3.785-4.532,8.651-10.915,9.388-19.228h0.639 c1.18,0,2.136-0.957,2.136-2.137C44.33,0.956,43.374,0,42.194,0H4.807c-1.18,0-2.136,0.957-2.136,2.136 c0,1.18,0.956,2.137,2.136,2.137h0.639c0.735,8.314,5.601,14.697,9.386,19.228c-3.784,4.532-8.651,10.914-9.387,19.228H4.807 c-1.18,0-2.136,0.955-2.136,2.135c0,1.181,0.956,2.138,2.136,2.138h2.671h32.044h2.672c1.18,0,2.136-0.957,2.136-2.138 C44.33,43.684,43.373,42.729,42.192,42.729z M9.728,42.729c0.803-7.511,5.686-13.295,9.335-17.617l0.195-0.231 c0.672-0.795,0.672-1.959,0-2.755l-0.194-0.23c-3.648-4.323-8.533-10.107-9.336-17.619h27.544 c-0.803,7.512-5.688,13.296-9.336,17.619l-0.193,0.23c-0.672,0.795-0.672,1.959,0,2.755l0.195,0.231 c3.648,4.322,8.531,10.106,9.334,17.617H9.728z" })));
+};
+
 var Icon$4 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
         React.createElement("path", { d: "M18 13H13V18C13 18.55 12.55 19 12 19C11.45 19 11 18.55 11 18V13H6C5.45 13 5 12.55 5 12C5 11.45 5.45 11 6 11H11V6C11 5.45 11.45 5 12 5C12.55 5 13 5.45 13 6V11H18C18.55 11 19 11.45 19 12C19 12.55 18.55 13 18 13Z",fill:"#aeaeae" })));
@@ -2099,6 +2106,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     SunIcon: Icon$U,
     TelegramIcon: Icon$V,
     TicketIcon: Icon$W,
+    HourglassIcon:Icon$54,
     TradeIcon: Icon$X,
     TwitterIcon: Icon$Y,
     RedditIcon: Icon$Z,
@@ -2985,7 +2993,7 @@ var light$5 = {
 var dark$5 = {
     background: darkColors.card,
     hover: "#473d5d",
-};
+}
 
 var light$6 = {
     background: lightColors.card,
@@ -2998,4 +3006,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark, button
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light, button: light$1, colors: lightColors, card: light$2, toggle: light$4, nav: light$5, modal: light$6, radio: light$3 });
 
-export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Logo as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
+export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$54 as HourglassIcon ,Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Logo as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
