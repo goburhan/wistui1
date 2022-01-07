@@ -2566,11 +2566,11 @@ var localStorageKey = "accountStatus";
 var WalletCard = function (_a) {
     var login = _a.login, walletConfig = _a.walletConfig, onDismiss = _a.onDismiss, mb = _a.mb;
     var title = walletConfig.title, Icon = walletConfig.icon;
-    return (React.createElement(Button, { fullWidth: true, variant: "tertiary", onClick: function () {
+    return (React.createElement(Button, { fullWidth: true,variant: "tertiary", onClick: function () {
             login(walletConfig.connectorId);
             window.localStorage.setItem(localStorageKey, "1");
             onDismiss();
-        }, style: { justifyContent: "space-between" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
+        }, style: { justifyContent: "space-between", background:"rgba(255,255,255,0.25)" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
         React.createElement(Text, { bold: true, color: "secondary", mr: "16px" }, title),
         React.createElement(Icon, { width: "32px" })));
 };
@@ -2582,7 +2582,7 @@ var ConnectModal = function (_a) {
 };
 var templateObject_1$E;
 
-var StyleButton = styled(Text).attrs({ role: "button" })(templateObject_1$F || (templateObject_1$F = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n  align-items: center;\n  color: ", ";\n"], ["\n  position: relative;\n  display: flex;\n  align-items: center;\n  color: ", ";\n"])), function (_a) {
+var StyleButton = styled(Text).attrs({ role: "button" })(templateObject_1$F || (templateObject_1$F = __makeTemplateObject([" \n  position: relative;\n  display: flex;\n  align-items: center;\n  color: ", ";\n"], ["\n  position: relative;\n  display: flex;\n  align-items: center;\n  color: ", ";\n"])), function (_a) {
     var theme = _a.theme;
     return theme.colors.primary;
 });
