@@ -217,6 +217,26 @@ var Icon$54 = function (props) {
         React.createElement("path", { d: "M246.62,483.486a11.311,11.311,0,0,1,.229-1.928,3.446,3.446,0,0,1,.788-1.318c.889-.96,1.838-1.866,2.767-2.79a1.2,1.2,0,0,1,1.88,0c.9.889,1.779,1.789,2.678,2.674a3.223,3.223,0,0,1,1.041,2.5c-.01.277,0,.555,0,.859Z" ,transform:"translate(-58.528 -272.492)" ,fill:"#fff" }))));
 };
 
+var Icon$53 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "5 0 90 90" , width:'100' , height:'100' }, props),
+        React.createElement("g", {  transform: "translate(0.000000,100.000000) scale(0.100000,-0.100000)" ,fill:"#ffff",stroke:"none" },
+        React.createElement("path", { d: "M91 946 c-49 -27 -50 -34 -51 -444 0 -416 1 -426 55 -450 41 -19 777 -17 814 2 50 26 51 38 51 446 0 408 -1 420 -51 446 -39 20 -782 20 -818 0z m809 -46 c19 -19 20 -33 20 -400 0 -367 -1 -381 -20 -400 -19 -19 -33 -20 -400 -20 -367 0 -381 1 -400 20 -19 19 -20 33 -20 400 0 367 1 381 20 400 19 19 33 20 400 20 367 0 381 -1 400 -20z" }),
+        React.createElement("path", { d: "M490 860 c0 -5 -7 -10 -15 -10 -13 0 -13 -3 -3 -20 7 -11 20 -20 28 -20 8 0 21 9 28 20 10 17 10 20 -3 20 -8 0 -15 5 -15 10 0 6 -4 10 -10 10 -5 0 -10 -4 -10 -10z"}),
+        React.createElement("path", { d: "M309 806 c-21 -16 -9 -51 18 -52 14 0 23 7 26 21 5 28 -22 48 -44 31z" }),
+        React.createElement("path", { d: "M659 806 c-21 -16 -9 -51 18 -52 14 0 23 7 26 21 5 28 -22 48 -44 31z" }),
+        React.createElement("path", { d: "M451 706 c-31 -17 -50 -53 -51 -93 0 -25 -4 -33 -18 -33 -10 0 -23 -5 -30 -12 -16 -16 -16 -220 0 -236 17 -17 279 -17 296 0 16 16 16 220 0 236 -7 7 -20 12 -30 12 -13 0 -18 8 -18 30 0 84 -79 135 -149 96z m89 -46 c11 -11 20 -33 20 -50 l0 -30 -60 0 -60 0 0 30 c0 34 31 70 60 70 11 0 29 -9 40 -20z m80 -210 l0 -90 -120 0 -120 0 0 90 0 90 120 0 120 0 0 -90z" }),
+        React.createElement("path", { d: "M484 487 c-10 -28 0 -82 16 -82 11 0 15 12 15 44 0 44 -19 68 -31 38z" }),
+        React.createElement("path", { d: "M188 686 c-12 -9 -13 -15 -4 -27 20 -28 44 -30 48 -5 6 30 -21 49 -44 32z" }),
+        React.createElement("path", { d: "M779 686 c-20 -16 -13 -55 10 -49 9 2 22 12 28 22 15 23 -15 45 -38 27z" }),
+        React.createElement("path", { d: "M150 520 c0 -5 -7 -10 -15 -10 -13 0 -13 -3 -3 -20 7 -11 20 -20 28 -20 8 0 21 9 28 20 10 17 10 20 -3 20 -8 0 -15 5 -15 10 0 6 -4 10 -10 10 -5 0 -10 -4 -10 -10z" }),
+        React.createElement("path", { d: "M830 520 c0 -5 -7 -10 -15 -10 -13 0 -13 -3 -3 -20 7 -11 20 -20 28 -20 8 0 21 9 28 20 10 17 10 20 -3 20 -8 0 -15 5 -15 10 0 6 -4 10 -10 10 -5 0 -10 -4 -10 -10z" }),
+        React.createElement("path", { d: "M188 346 c-12 -9 -13 -15 -4 -27 20 -28 44 -30 48 -5 6 30 -21 49 -44 32z" }),
+        React.createElement("path", { d: "M780 350 c0 -5 -7 -10 -15 -10 -13 0 -13 -3 -3 -20 7 -11 20 -20 28 -20 8 0 21 9 28 20 10 17 10 20 -3 20 -8 0 -15 5 -15 10 0 6 -4 10 -10 10 -5 0 -10 -4 -10 -10z" }),
+        React.createElement("path", { d: "M309 231 c-21 -22 -13 -51 16 -51 29 0 39 32 16 52 -14 12 -19 12 -32 -1z" }),
+        React.createElement("path", { d: "M659 231 c-21 -22 -13 -51 16 -51 29 0 39 32 16 52 -14 12 -19 12 -32 -1z" }),
+        React.createElement("path", { d: "M490 180 c0 -5 -7 -10 -15 -10 -13 0 -13 -3 -3 -20 7 -11 20 -20 28 -20 8 0 21 9 28 20 10 17 10 20 -3 20 -8 0 -15 5 -15 10 0 6 -4 10 -10 10 -5 0 -10 -4 -10 -10z" }))));
+};
+
 var Icon$4 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
         React.createElement("path", { d: "M18 13H13V18C13 18.55 12.55 19 12 19C11.45 19 11 18.55 11 18V13H6C5.45 13 5 12.55 5 12C5 11.45 5.45 11 6 11H11V6C11 5.45 11.45 5 12 5C12.55 5 13 5.45 13 6V11H18C18.55 11 19 11.45 19 12C19 12.55 18.55 13 18 13Z",fill:"#aeaeae" })));
@@ -2107,6 +2127,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     TelegramIcon: Icon$V,
     TicketIcon: Icon$W,
     HourglassIcon:Icon$54,
+    KycIcon:Icon$53,
     TradeIcon: Icon$X,
     TwitterIcon: Icon$Y,
     RedditIcon: Icon$Z,
@@ -3006,4 +3027,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark, button
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light, button: light$1, colors: lightColors, card: light$2, toggle: light$4, nav: light$5, modal: light$6, radio: light$3 });
 
-export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$54 as HourglassIcon ,Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Logo as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
+export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$54 as HourglassIcon,Icon$53 as KycIcon ,Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Logo as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
