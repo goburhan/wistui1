@@ -674,7 +674,7 @@ var ButtonMenu = function (_a) {
     })));
 };
 
-var InactiveButton = styled(Button)(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"], ["\n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
+var InactiveButton = styled(Button)(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["gap:4px; \n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"], ["\n  background-color: transparent;\n  color: ", ";\n\n  &:hover:not(:disabled):not(:active) {\n    background-color: transparent;\n  }\n"])), function (_a) {
     var theme = _a.theme, colorKey = _a.colorKey;
     return theme.colors[colorKey];
 });
@@ -2290,7 +2290,7 @@ var LinkLabel = styled.div(templateObject_2$a || (templateObject_2$a = __makeTem
     var isPushed = _a.isPushed, theme = _a.theme;
     return (isPushed ? theme.colors.textSubtle : "transparent");
 });
-var MenuEntry = styled.div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  box-shadow: ", ";\n  border-radius: 10px;\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n    color: ", ";\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  a > div {\n    color: ", ";\n    font-weight: ", ";;\n  }\n\n  a:hover > div {\n    color: #000;\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    // background: ", ";\n    background-size: 200% 100%;\n    font-weight: normal;\n    // color: #000;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  box-shadow: ", ";\n  border-radius: 10px;\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n    color: ", ";\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  a > div {\n    color: ", ";\n    font-weight: ", ";;\n  }\n\n  a:hover > div {\n    color: rgba(251, 207, 223);\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    // background: ", ";\n    background-size: 200% 100%;\n    font-weight: normal;\n    // color: #000;\n  }\n"])), MENU_ENTRY_HEIGHT, function (_a) {
+var MenuEntry = styled.div(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  box-shadow: ", ";\n  border-radius: 10px;\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n    color: ", ";\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  a > div {\n    color: ", ";\n    font-weight: ", ";;\n  }\n\n  a:hover > div {\n    color: #E0CAF0;\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    // background: ", ";\n    background-size: 200% 100%;\n    font-weight: normal;\n    // color: #000;\n  }\n"], ["\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  height: ", "px;\n  padding: ", ";\n  font-size: ", ";\n  background: ", ";\n  box-shadow: ", ";\n  border-radius: 10px;\n  a {\n    display: flex;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n    color: ", ";\n  }\n\n  svg {\n    fill: ", ";\n  }\n\n  a > div {\n    color: ", ";\n    font-weight: ", ";;\n  }\n\n  a:hover > div {\n    color: rgba(251, 207, 223);\n  }\n\n  // Safari fix\n  flex-shrink: 0;\n\n  &.rainbow {\n    -webkit-background-clip: text;\n    animation: ", " 3s ease-in-out infinite;\n    // background: ", ";\n    background-size: 200% 100%;\n    font-weight: normal;\n    // color: #000;\n  }\n"])), MENU_ENTRY_HEIGHT, function (_a) {
     var secondary = _a.secondary;
     return (secondary ? "0 32px" : "0 16px");
 }, function (_a) {
@@ -2867,7 +2867,7 @@ var templateObject_1$K;
 var baseColors = {
     failure: "#ED4B9E",
     primary: "rgba(255,255,255,1)",
-    primaryBright: "#aeaeae",
+    primaryBright: "#ffffff",
     primaryDark: "white",
     secondary: "white",
     success: "rgba(255,255,255,0.25)",
@@ -2907,11 +2907,11 @@ var light$1 = (_a$2 = {},
         background: "transparent",
         backgroundActive: "transparent",
         backgroundHover: "transparent",
-        border: "2px solid " + "#aeaeae",
+        border: "2px solid " + "#ffffff",
         borderColorHover: lightColors.primaryBright,
         boxShadow: "none",
         boxShadowActive: "none",
-        color: "#aeaeae",
+        color: "#ffffff",
     },
     _a$2[TERTIARY] = {
         background: lightColors.tertiary,
